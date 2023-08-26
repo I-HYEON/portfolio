@@ -1,0 +1,19 @@
+.NavigationContainer {
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+  height: fit-content;
+  border: 1px solid black;
+}
+
+/* 모바일 화면 크기에서만 적용할 스타일 */
+@media screen and (max-width: 768px) {
+  .NavigationContainer {
+    justify-content: center; /* 가운데 정렬로 변경 */
+  }
+  
+  /* "Home" 링크만 표시하도록 설정 */
+  .NavigationContainer a:not(:first-child) {
+    display: none;
+  }
+}
