@@ -1,0 +1,11 @@
+.hamburgerMenu {
+  display: none;
+}
+
+/* 모바일 화면 크기에서만 적용할 스타일 */
+@media screen and (max-width: 768px) {  
+  /* 햄버거만 표시하도록 설정 */
+  .hamburgerMenu {
+    display: block;
+  }
+}

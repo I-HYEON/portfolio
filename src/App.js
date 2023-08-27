@@ -4,9 +4,10 @@ import NavigationBar from './components/common/NavigationBar';
 import AppRouter from './utils/AppRouter';
 
 function App() {
+
   return (
     <BrowserRouter>
-      <NavigationBar/>
+      <NavigationBar />
       <AppRouter/>
     </BrowserRouter>
   );
